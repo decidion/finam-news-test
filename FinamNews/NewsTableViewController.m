@@ -72,7 +72,7 @@
     // Configure the cell...
     
     cell.textLabel.text = newsItem.title;
-    cell.detailTextLabel.text = newsItem.title;
+    cell.detailTextLabel.text = newsItem.descriptionOfArticle;
     
     return cell;
 }
