@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  NewsTableViewController.h
 //  FinamNews
 //
 //  Created by Muslim Kushiev on 25.05.2018.
@@ -8,8 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-
+@interface NewsTableViewController : UITableViewController
 
 @end
-

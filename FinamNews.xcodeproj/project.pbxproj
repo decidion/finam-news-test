@@ -8,24 +8,34 @@
 
 /* Begin PBXBuildFile section */
 		D5FCA1BC20B8117800488A3F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D5FCA1BB20B8117800488A3F /* AppDelegate.m */; };
-		D5FCA1BF20B8117800488A3F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D5FCA1BE20B8117800488A3F /* ViewController.m */; };
 		D5FCA1C220B8117800488A3F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D5FCA1C020B8117800488A3F /* Main.storyboard */; };
 		D5FCA1C420B8117800488A3F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D5FCA1C320B8117800488A3F /* Assets.xcassets */; };
 		D5FCA1C720B8117800488A3F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D5FCA1C520B8117800488A3F /* LaunchScreen.storyboard */; };
 		D5FCA1CA20B8117800488A3F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D5FCA1C920B8117800488A3F /* main.m */; };
+		D5FCA1D220B8185100488A3F /* NewsTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D5FCA1D120B8185100488A3F /* NewsTableViewController.m */; };
+		D5FCA1D520B8186B00488A3F /* NewsDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D5FCA1D420B8186B00488A3F /* NewsDetailViewController.m */; };
+		D5FCA1D820B81A2000488A3F /* NewsItem.m in Sources */ = {isa = PBXBuildFile; fileRef = D5FCA1D720B81A2000488A3F /* NewsItem.m */; };
+		D5FCA1DB20B81AC100488A3F /* DataManager.m in Sources */ = {isa = PBXBuildFile; fileRef = D5FCA1DA20B81AC100488A3F /* DataManager.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		D5FCA1B720B8117800488A3F /* FinamNews.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FinamNews.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D5FCA1BA20B8117800488A3F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		D5FCA1BB20B8117800488A3F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		D5FCA1BD20B8117800488A3F /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		D5FCA1BE20B8117800488A3F /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		D5FCA1C120B8117800488A3F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D5FCA1C320B8117800488A3F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D5FCA1C620B8117800488A3F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D5FCA1C820B8117800488A3F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D5FCA1C920B8117800488A3F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D5FCA1D020B8185100488A3F /* NewsTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NewsTableViewController.h; sourceTree = "<group>"; };
+		D5FCA1D120B8185100488A3F /* NewsTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NewsTableViewController.m; sourceTree = "<group>"; };
+		D5FCA1D320B8186B00488A3F /* NewsDetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NewsDetailViewController.h; sourceTree = "<group>"; };
+		D5FCA1D420B8186B00488A3F /* NewsDetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NewsDetailViewController.m; sourceTree = "<group>"; };
+		D5FCA1D620B81A2000488A3F /* NewsItem.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NewsItem.h; sourceTree = "<group>"; };
+		D5FCA1D720B81A2000488A3F /* NewsItem.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NewsItem.m; sourceTree = "<group>"; };
+		D5FCA1D920B81AC100488A3F /* DataManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DataManager.h; sourceTree = "<group>"; };
+		D5FCA1DA20B81AC100488A3F /* DataManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DataManager.m; sourceTree = "<group>"; };
+		D5FCA1DC20B81B4700488A3F /* NewsRequest.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NewsRequest.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,8 +70,15 @@
 			children = (
 				D5FCA1BA20B8117800488A3F /* AppDelegate.h */,
 				D5FCA1BB20B8117800488A3F /* AppDelegate.m */,
-				D5FCA1BD20B8117800488A3F /* ViewController.h */,
-				D5FCA1BE20B8117800488A3F /* ViewController.m */,
+				D5FCA1D620B81A2000488A3F /* NewsItem.h */,
+				D5FCA1D720B81A2000488A3F /* NewsItem.m */,
+				D5FCA1D920B81AC100488A3F /* DataManager.h */,
+				D5FCA1DA20B81AC100488A3F /* DataManager.m */,
+				D5FCA1DC20B81B4700488A3F /* NewsRequest.h */,
+				D5FCA1D020B8185100488A3F /* NewsTableViewController.h */,
+				D5FCA1D120B8185100488A3F /* NewsTableViewController.m */,
+				D5FCA1D320B8186B00488A3F /* NewsDetailViewController.h */,
+				D5FCA1D420B8186B00488A3F /* NewsDetailViewController.m */,
 				D5FCA1C020B8117800488A3F /* Main.storyboard */,
 				D5FCA1C320B8117800488A3F /* Assets.xcassets */,
 				D5FCA1C520B8117800488A3F /* LaunchScreen.storyboard */,
@@ -142,8 +159,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D5FCA1BF20B8117800488A3F /* ViewController.m in Sources */,
+				D5FCA1D520B8186B00488A3F /* NewsDetailViewController.m in Sources */,
+				D5FCA1DB20B81AC100488A3F /* DataManager.m in Sources */,
+				D5FCA1D220B8185100488A3F /* NewsTableViewController.m in Sources */,
 				D5FCA1CA20B8117800488A3F /* main.m in Sources */,
+				D5FCA1D820B81A2000488A3F /* NewsItem.m in Sources */,
 				D5FCA1BC20B8117800488A3F /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
